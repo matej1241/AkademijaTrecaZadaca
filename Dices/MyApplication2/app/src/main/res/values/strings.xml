@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="rollDiceButtonHint">Roll dice</string>
+    <string name="rollError">You already rolled twice</string>
+</resources>

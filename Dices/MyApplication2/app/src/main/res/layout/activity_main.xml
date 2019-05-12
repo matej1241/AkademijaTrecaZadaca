@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/layoutMargin"
+        android:layout_marginRight="@dimen/layoutMargin"
+        tools:context=".ui.main.MainActivity">
+
+    <Button
+            android:id="@+id/rollDice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/diceTwoImg"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:hint="@string/rollDiceButtonHint"
+    />
+
+    <Button
+            android:id="@+id/resetDice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/rollDice"
+            app:layout_constraintBottom_toTopOf="@id/diceTwoImg"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:hint="RESET ROLL"
+    />
+
+    <ImageView
+            android:id="@+id/diceOneImg"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="@dimen/imageSideMargin"
+            android:layout_marginRight="@dimen/imageSideMargin"
+            android:layout_marginTop="@dimen/imageTopMargin"
+            android:layout_marginBottom="@dimen/imageBottomMargin"
+            android:src="@drawable/dice_1"
+    />
+
+    <ImageView
+            android:id="@+id/diceTwoImg"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/diceOneImg"
+            android:layout_marginLeft="@dimen/imageSideMargin"
+            android:layout_marginRight="@dimen/imageSideMargin"
+            android:layout_marginTop="@dimen/imageTopMargin"
+            android:layout_marginBottom="@dimen/imageBottomMargin"
+            android:src="@drawable/dice_1"
+    />
+    <ImageView
+            android:id="@+id/diceThreeImg"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/diceTwoImg"
+            android:layout_marginLeft="@dimen/imageSideMargin"
+            android:layout_marginRight="@dimen/imageSideMargin"
+            android:layout_marginTop="@dimen/imageTopMargin"
+            android:layout_marginBottom="@dimen/imageBottomMargin"
+            android:src="@drawable/dice_1"
+    />
+    <ImageView
+            android:id="@+id/diceFourImg"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            app:layout_constraintTop_toBottomOf="@id/diceOneImg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="@dimen/imageSideMargin"
+            android:layout_marginRight="@dimen/imageSideMargin"
+            android:layout_marginTop="@dimen/imageTopMargin"
+            android:layout_marginBottom="@dimen/imageBottomMargin"
+            android:src="@drawable/dice_1"
+    />
+    <ImageView
+            android:id="@+id/diceFiveImg"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            app:layout_constraintTop_toBottomOf="@id/diceTwoImg"
+            app:layout_constraintLeft_toRightOf="@id/diceFourImg"
+            android:layout_marginLeft="@dimen/imageSideMargin"
+            android:layout_marginRight="@dimen/imageSideMargin"
+            android:layout_marginTop="@dimen/imageTopMargin"
+            android:layout_marginBottom="@dimen/imageBottomMargin"
+            android:src="@drawable/dice_1"
+    />
+    <ImageView
+            android:id="@+id/diceSixImg"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            app:layout_constraintTop_toBottomOf="@id/diceThreeImg"
+            app:layout_constraintLeft_toRightOf="@id/diceFiveImg"
+            android:layout_marginLeft="@dimen/imageSideMargin"
+            android:layout_marginRight="@dimen/imageSideMargin"
+            android:layout_marginTop="@dimen/imageTopMargin"
+            android:layout_marginBottom="@dimen/imageBottomMargin"
+            android:src="@drawable/dice_1"
+    />
+
+
+
+</android.support.constraint.ConstraintLayout>

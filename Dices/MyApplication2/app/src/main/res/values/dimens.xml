@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutMargin">30dp</dimen>
+    <dimen name="imageWidth">90dp</dimen>
+    <dimen name="imageHeight">90dp</dimen>
+    <dimen name="imageSideMargin">10dp</dimen>
+    <dimen name="imageTopMargin">5dp</dimen>
+    <dimen name="imageBottomMargin">5dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyCV</string>
+    <string name="name">Matej Milić</string>
+    <string name="aboutTitleText">ABOUT ME</string>
+    <string name="aboutTextText">Student at FERIT\nAmateur android developer</string>
+    <string name="experienceTitleText">EXPERIENCE</string>
+    <string name="experienceTextText">Internship at Siemens\nFew personal projects</string>
+    <string name="contactTitleText">CONTACT</string>
+    <string name="contactTextText">matejmilic7@gmail.com</string>
+</resources>

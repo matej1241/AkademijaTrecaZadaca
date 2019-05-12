@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutMargin">50dp</dimen>
+    <dimen name="titleTextSize">40dp</dimen>
+    <dimen name="cardHeight">150dp</dimen>
+    <dimen name="titleTextMargin">10dp</dimen>
+    <dimen name="cardMargin">10dp</dimen>
+    <dimen name="imageMargin">30dp</dimen>
+    <dimen name="aboutTitleMargin">30dp</dimen>
+    <dimen name="aboutTitleTextSize">18dp</dimen>
+    <dimen name="imageWidth">25dp</dimen>
+    <dimen name="imageHeight">25dp</dimen>
+    <dimen name="aboutTextTextSize">15dp</dimen>
+</resources>

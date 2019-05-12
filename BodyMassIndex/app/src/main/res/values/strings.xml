@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BodyMassIndex</string>
+    <string name="heightInputHint">Enter your height in meters</string>
+    <string name="weightInputHint">Enter your weight in kilograms</string>
+    <string name="invalidInput">Invalid input</string>
+    <string name="underWeightTitle">Underweight</string>
+    <string name="healthyWeightTitle">Healthy</string>
+    <string name="overWeightTitle">Overweight</string>
+    <string name="obeseTitle">Obese</string>
+    <string name="underWeightDescription">An underweight person is a type of person whose body weight is considered
+        too low to be healthy. Underweight people have a body mass index (BMI) of under 18.5 or a weight 15% to 20%
+        below that normal for their age and height group.</string>
+    <string name="healthyWeightDescription">An healthy person is a type of person whose body weight is considered
+        healthy. Healthy people have a body mass index (BMI) of under 25.</string>
+    <string name="overWeightDescription">Being overweight or fat is having more body fat than is optimally healthy.
+        Being overweight is especially common where food supplies are plentiful and lifestyles are sedentary.
+        As of 2003, excess weight reached epidemic proportions globally, with more than 1 billion adults being either
+        overweight or obese.</string>
+    <string name="obeseDescription">Obesity is a medical condition in which excess body fat has
+        accumulated to an extent that it may have a negative effect on health.
+        People are generally considered obese when their body mass index (BMI),
+        a measurement obtained by dividing a persons weight by the square of the persons height, is over 30.</string>
+
+</resources>

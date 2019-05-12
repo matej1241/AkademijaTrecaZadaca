@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutMargin">30dp</dimen>
+    <dimen name="editTextMargin">25dp</dimen>
+    <dimen name="buttonMargin">25dp</dimen>
+    <dimen name="bmiPictureWidth">150dp</dimen>
+    <dimen name="bmiPictureHeight">200dp</dimen>
+    <dimen name="bmiPictureMarginTop">50dp</dimen>
+    <dimen name="bmiResultMarginTop">25dp</dimen>
+    <dimen name="bmiResultTextSize">30sp</dimen>
+    <dimen name="bmiDescriptionTextSize">20sp</dimen>
+</resources>
